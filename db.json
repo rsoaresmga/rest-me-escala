@@ -1,0 +1,64 @@
+{
+ "niveis": [
+   {"id": 1, "nome": "avancado"},
+   {"id": 2, "nome": "intermediario"},
+   {"id": 3, "nome": "iniciante"}
+ ],
+ "habilidades": [
+    {"id": 1, "nome": "vocal", "tipo": "cantor", "chave": true}, 
+    {"id": 2, "nome": "back-vocal", "tipo": "cantor", "chave": false}, 
+    {"id": 3, "nome": "violao", "tipo": "musico", "chave": false}, 
+    {"id": 4, "nome": "guitarra", "tipo": "musico", "chave": true}, 
+    {"id": 5, "nome": "contrabaixo", "tipo": "musico", "chave": false}, 
+    {"id": 6, "nome": "bateria", "tipo": "musico", "chave": false}, 
+    {"id": 7, "nome": "teclado", "tipo": "musico", "chave": true} 
+ ],
+ "integrantes": [
+    {"id": 1, "nome": "Rodrigo", "habilidades": [{"habilidade_id": 7, "nivel_id": 1}, {"habilidade_id": 6, "nivel_id": 1}, {"habilidade_id": 3, "nivel_id": 1}, {"habilidade_id": 5, "nivel_id": 2}]},
+    {"id": 4, "nome": "Cleber", "habilidades": [{"habilidade_id": 7, "nivel_id": 1}, {"habilidade_id": 4, "nivel_id": 1}, {"habilidade_id": 3, "nivel_id": 1}, {"habilidade_id": 1, "nivel_id": 1}, {"habilidade_id": 2, "nivel_id": 1}]},
+    {"id": 2, "nome": "Bruno", "habilidades": [{"habilidade_id": 4, "nivel_id": 1}, {"habilidade_id": 1, "nivel_id": 1}, {"habilidade_id": 7, "nivel_id": 2}, {"habilidade_id": 3, "nivel_id": 1}, {"habilidade_id": 5, "nivel_id": 1}]},
+    {"id": 3, "nome": "Pedro", "habilidades": [{"habilidade_id": 6, "nivel_id": 1}]},
+    {"id": 5, "nome": "Taci", "habilidades": [{"habilidade_id": 1, "nivel_id": 1}, {"habilidade_id": 2, "nivel_id": 2}]},
+    {"id": 6, "nome": "Renata", "habilidades": [{"habilidade_id": 2, "nivel_id": 2}]},
+    {"id": 7, "nome": "Flavio", "habilidades": [{"habilidade_id": 2, "nivel_id": 3}]},
+    {"id": 8, "nome": "Larissa", "habilidades": [{"habilidade_id": 1, "nivel_id": 1}, {"habilidade_id": 2, "nivel_id": 2}]},
+    {"id": 9, "nome": "Valeria", "habilidades": [{"habilidade_id": 1, "nivel_id": 1}, {"habilidade_id": 2, "nivel_id": 1}]}, 
+    {"id": 10, "nome": "Osmar", "habilidades": [{"habilidade_id": 5, "nivel_id": 2}]},
+    {"id": 11, "nome": "Alisson", "habilidades": [{"habilidade_id": 6, "nivel_id": 1}, {"habilidade_id": 3, "nivel_id": 1}, {"habilidade_id": 4, "nivel_id": 4}, {"habilidade_id": 5, "nivel_id": 1}]}, 
+    {"id": 12, "nome": "Jairo", "habilidades": [{"habilidade_id": 4, "nivel_id": 1}]},
+    {"id": 13, "nome": "Valmir", "habilidades": [{"habilidade_id": 5, "nivel_id": 1}]},
+    {"id": 14, "nome": "Yara", "habilidades": [{"habilidade_id": 1, "nivel_id": 1}, {"habilidade_id": 2, "nivel_id": 3}]},
+    {"id": 15, "nome": "Carla", "habilidades": [{"habilidade_id": 1, "nivel_id": 1}, {"habilidade_id": 2, "nivel_id": 1}]},
+    {"id": 16, "nome": "Juniao", "habilidades": [{"habilidade_id": 3, "nivel_id": 1}, {"habilidade_id": 5, "nivel_id": 2}, {"habilidade_id": 4, "nivel_id": 3}]},
+    {"id": 17, "nome": "Vini", "habilidades": [{"habilidade_id": 6, "nivel_id": 1}]},
+    {"id": 18, "nome": "Eliander", "habilidades": [{"habilidade_id": 6, "nivel_id": 2}]},
+    {"id": 19, "nome": "Cesar", "habilidades": [{"habilidade_id": 5, "nivel_id": 1}, {"habilidade_id": 3, "nivel_id": 2}, {"habilidade_id": 6, "nivel_id": 2}]}
+  ],
+ "eventos": [
+    {"id": 1, "nome": "Culto de Domingo Noite", "data": "2024-08-01", "hora": "19:00", "prioridade": "alta"},
+    {"id": 2, "nome": "Culto de Domingo Manha", "data": "2024-08-01", "hora": "9:00", "prioridade": "media"},
+    {"id": 3, "nome": "Culto Shine", "data": "2024-07-24", "hora": "20:00", "prioridade": "normal"},
+    {"id": 4, "nome": "Culto Rocket", "data": "2024-07-26", "hora": "19:47", "prioridade": "normal"}
+ ],
+ "disponibilidades": [
+    { "integrante_id": 1, "evento_id": 3 },​
+    { "integrante_id": 4, "evento_id": 1 },​
+    { "integrante_id": 2, "evento_id": 4 },​
+    { "integrante_id": 3, "evento_id": 3 },​
+    { "integrante_id": 5, "evento_id": 3 },​
+    { "integrante_id": 6, "evento_id": 1 },​
+    { "integrante_id": 7, "evento_id": 2 },​
+    { "integrante_id": 8, "evento_id": 3 },​
+    { "integrante_id": 9, "evento_id": 1 },​
+    { "integrante_id": 10, "evento_id": 1 },​
+    { "integrante_id": 11, "evento_id": 3 },​
+    { "integrante_id": 12, "evento_id": 4 },​
+    { "integrante_id": 13, "evento_id": 4 },​
+    { "integrante_id": 13, "evento_id": 2 },​
+    { "integrante_id": 13, "evento_id": 4 },​
+    { "integrante_id": 14, "evento_id": 2 },​
+    { "integrante_id": 15, "evento_id": 4 },​
+    { "integrante_id": 16, "evento_id": 4 },​
+    { "integrante_id": 17, "evento_id": 4 },
+ ] 
+}
