@@ -40,25 +40,5 @@
     {"id": 3, "nome": "Culto Shine", "data": "2024-07-24", "hora": "20:00", "prioridade": "normal"},
     {"id": 4, "nome": "Culto Rocket", "data": "2024-07-26", "hora": "19:47", "prioridade": "normal"}
  ],
- "disponibilidades": [
-    { "integrante_id": 1, "evento_id": 3 },​
-    { "integrante_id": 4, "evento_id": 1 },​
-    { "integrante_id": 2, "evento_id": 4 },​
-    { "integrante_id": 3, "evento_id": 3 },​
-    { "integrante_id": 5, "evento_id": 3 },​
-    { "integrante_id": 6, "evento_id": 1 },​
-    { "integrante_id": 7, "evento_id": 2 },​
-    { "integrante_id": 8, "evento_id": 3 },​
-    { "integrante_id": 9, "evento_id": 1 },​
-    { "integrante_id": 10, "evento_id": 1 },​
-    { "integrante_id": 11, "evento_id": 3 },​
-    { "integrante_id": 12, "evento_id": 4 },​
-    { "integrante_id": 13, "evento_id": 4 },​
-    { "integrante_id": 13, "evento_id": 2 },​
-    { "integrante_id": 13, "evento_id": 4 },​
-    { "integrante_id": 14, "evento_id": 2 },​
-    { "integrante_id": 15, "evento_id": 4 },​
-    { "integrante_id": 16, "evento_id": 4 },​
-    { "integrante_id": 17, "evento_id": 4 },
- ] 
+ "disponibilidades": [{"integrante_id": 1, "evento_id": 3}, {"integrante_id": 4, "evento_id": 1}, {"integrante_id": 2, "evento_id": 4}, {"integrante_id": 3, "evento_id": 3}, {"integrante_id": 5, "evento_id": 3}, {"integrante_id": 6, "evento_id": 1}, {"integrante_id": 7, "evento_id": 2}, {"integrante_id": 8, "evento_id": 3}, {"integrante_id": 9, "evento_id": 1}, {"integrante_id": 10, "evento_id": 1}, {"integrante_id": 11, "evento_id": 3}, {"integrante_id": 12, "evento_id": 4}, {"integrante_id": 13, "evento_id": 4}, {"integrante_id": 13, "evento_id": 2}, {"integrante_id": 13, "evento_id": 4}, {"integrante_id": 14, "evento_id": 2}, {"integrante_id": 15, "evento_id": 4}, {"integrante_id": 16, "evento_id": 4}, {"integrante_id": 17, "evento_id": 4}] 
 }
